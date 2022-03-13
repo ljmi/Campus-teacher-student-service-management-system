@@ -1,0 +1,1 @@
+<view class="imgpage data-v-81e8f51c"><image class="img data-v-81e8f51c" src="{{img}}"></image><view class="button data-v-81e8f51c"><button type="primary" data-event-opts="{{[['tap',[['uploadImage',['$event']]]]]}}" bindtap="__e" class="data-v-81e8f51c">从相册选一张</button></view></view>

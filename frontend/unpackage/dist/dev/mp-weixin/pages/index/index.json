@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar",
+    "tittle": "/components/title"
+  }
+}

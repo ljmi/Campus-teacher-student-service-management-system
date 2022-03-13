@@ -1,0 +1,1 @@
+<view class="noticeDetails status_bar data-v-13c57144"><view class="title data-v-13c57144">{{''+title+''}}</view><view class="u-content data-v-13c57144"><u-parse vue-id="64e93842-1" html="{{content}}" class="data-v-13c57144" bind:__l="__l"></u-parse></view></view>

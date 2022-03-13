@@ -1,0 +1,28 @@
+const Router=require("koa-router")
+const router=new Router()
+const login =require('./login')
+const student=require('./student')
+const admin=require('./admin')
+const academy=require('./academy')
+const major=require('./major')
+const classapi=require('./classapi.js')
+const teacher=require('./teacher')
+const leave=require('./leave')
+const healthy=require('./healthy')
+const notice=require('./notice.js')
+const system=require('./system.js')
+
+
+router.use('/api/login',login.routes(),login.allowedMethods())
+router.use('/api/student',student.routes(),student.allowedMethods())
+router.use('/api/admin',admin.routes(),admin.allowedMethods())
+router.use('/api/academy',academy.routes(),academy.allowedMethods())
+router.use('/api/major',major.routes(),major.allowedMethods())
+router.use('/api/classapi',classapi.routes(),classapi.allowedMethods())
+router.use('/api/teacher',teacher.routes(),teacher.allowedMethods())
+router.use('/api/leave',leave.routes(),leave.allowedMethods())
+router.use('/api/healthy',healthy.routes(),healthy.allowedMethods())
+router.use('/api/notice',notice.routes(),notice.allowedMethods())
+router.use('/api/system',system.routes(),system.allowedMethods())
+
+module.exports=router

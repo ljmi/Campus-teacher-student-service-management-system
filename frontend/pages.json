@@ -1,0 +1,119 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/login/index",
+			"app-plus": {
+				"titleNView": false
+			}
+		}, {
+			"path": "pages/leave/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/index"
+
+		}, {
+			"path": "pages/healthy/index",
+			"style": {
+				"app-plus": {
+					// "titleNView": {
+					// 	"buttons": [{
+					// 		"float": "right",
+					// 		"fontSrc": "/static/iconfont/iconfont.ttf",
+					// 		"text": "\ue69c",
+					// 		"fontSize": "22"
+					// 	}]
+					// }
+				}
+			}
+
+		}, {
+			"path": "pages/my/information",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/settings",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/leave/apply",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/notice/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/notice/details",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/leave/details",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/imgPage",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText":"设置个人头像"
+			}
+
+		}, {
+			"path": "pages/my/setPassword",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTitleText": "校园便捷师生系统",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home_select.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/leave/index",
+				"iconPath": "static/img/leave.png",
+				"selectedIconPath": "static/img/leave_select.png",
+				"text": "请假"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/my_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
